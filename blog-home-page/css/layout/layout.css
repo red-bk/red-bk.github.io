@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas:
         "header header"
         "content content"
@@ -9,4 +9,5 @@
 
 .header {
     grid-area: header;
+    border: 1px solid red;
 }

@@ -1,0 +1,23 @@
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navbar-list {
+    display: flex;
+}
+
+.header-navbar-list li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.header-heading {
+    text-align: center;
+    color: #0096FF;
+}
